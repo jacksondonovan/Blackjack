@@ -1,0 +1,74 @@
+img{
+  width:135px;
+  height:195px;
+}
+li .wonWins{
+  font-size: 40px;
+  font-weight: bold;
+}
+nav li{
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-image: url("http://www.table-games.net/wp-content/uploads/2015/08/%E2%82%AC0.1-%E2%82%AC5%20Pontoon%E2%84%A2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  font-size: 25px;
+  color:#FFF;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: -1px;
+}
+.showMeTheMoney{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 32px;
+  font-weight: bold;
+}
+.lunch{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: -95px
+}
+.tableLimit{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  font-weight: bold;
+}
+#bigBet{
+  color: #FFF;
+  font-size: 25px;
+  text-align: center;
+}
+.dealerCards{
+  display: flex;
+  justify-content: center;
+}
+.playerCards{
+  display: flex;
+  justify-content: center;
+}
+.dealerCards img{
+  margin:1px 5px;
+}
+.playerCards img{
+  margin:1px 5px;
+}
+.myButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myButtons button{
+  margin:10px;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}

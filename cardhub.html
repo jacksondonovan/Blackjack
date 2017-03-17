@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Hub</title>
+    <link rel="stylesheet" href="cardhubStyling.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="#1b5e20 green darken-4">
+        <ul>
+          <li class="whoWins" style="font-size:35px;"><a href="cardhub.html">BlackJack</a></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+      <section class="playtime">
+        <container class="dealerCards">
+          <img class="dealerCardShow" src='http://www.murphysmagicsupplies.com/images_email/Mandolin_BACK.jpg'alt="">
+          <img class="dealerCardHide" src='http://www.murphysmagicsupplies.com/images_email/Mandolin_BACK.jpg'alt="">
+        </container>
+        <p class="dealerTotal">Dealer's total: </p>
+      </section>
+      <main>
+        <p class="lunch">Balance Goal: 2017</p>
+        <p class="showMeTheMoney"></p>
+        <p class="tableLimit"></p>
+      </main>
+      <section class="playtime">
+       <container class="playerCards">
+        <img class="cardOne" class="activeCard" src='http://www.murphysmagicsupplies.com/images_email/Mandolin_BACK.jpg'alt="">
+        <img class="cardTwo" class="activeCard" src='http://www.murphysmagicsupplies.com/images_email/Mandolin_BACK.jpg'alt="">
+       </container>
+       <p class="playerTotal">Your hand's total: </p>
+     </section>
+        <div class="myButtons">
+         <button class="startButton" type="button" name="button">Start</button>
+         <button class="resetButton" type="button" name="button">Reset</button>
+         <button class="hitButton"type="button" name="button">HIT</button>
+         <button class="stayButton"type="button" name="button">STAY</button>
+         <button class="doubleButton"type="button" name="button">D.↓</button>
+         <form class="input" action="index.html" method="GET">
+           <label for="user-bet"></label>
+           <input id="bigBet"type="number" name="bigBet" placeholder="PLACE BET HERE"></input>
+         </form>
+         <button class="plusTenButton"type="button" name="button">+5</button>
+         <button class="plusTwentyFiveButton"type="button" name="button">+10</button>
+         <button class="plusFiftyButton"type="button" name="button">+25</button>
+         <button class="plusOneHundredButton"type="button" name="button">+50</button>
+         <button class="plusFiveHundredButton"type="button" name="button">+100</button>
+        </div>
+     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"><
+     </script>
+     <script src="cardhubScripting.js"></script>
+  </body>
+</html>
