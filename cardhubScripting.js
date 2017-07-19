@@ -715,7 +715,7 @@ function compareTotals() {if(handOver){
     handOver = false
   }
   if(yourWallet===0){
-    theWinner.textContent = "Leave my website, paying customers only."
+    theWinner.textContent = "Ah, better luck next time."
   }
   if(yourWallet>2016){
     theWinner.textContent = "Congratulations! You win free lunch from Jackson! "
@@ -739,7 +739,7 @@ function compareTotals() {if(handOver){
       handOver = false
     }
     if(yourWallet===0){
-      theWinner.textContent = "Leave my website, paying customers only."
+      theWinner.textContent = "Ah, better luck next time."
     }
     if(yourWallet>2016){
       theWinner.textContent = "Congratulations! You win free lunch from Jackson! "
